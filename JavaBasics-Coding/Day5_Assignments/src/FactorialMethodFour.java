@@ -6,7 +6,7 @@ public class FactorialMethodFour {
 		Scanner scanner = new Scanner(System.in);
 		
 		int factorial =0;
-		
+		//can make thus better so it takes less code eg if you have for(;num<-0;) or just a while loop
 		do {
 			System.out.println("Enter the number for the factorial: ");
 			factorial = scanner.nextInt();
