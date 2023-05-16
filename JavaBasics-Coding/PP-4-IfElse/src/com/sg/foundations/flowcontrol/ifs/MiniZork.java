@@ -7,6 +7,8 @@ public class MiniZork {
     public static void main(String[] args) {
 
         Scanner userInput = new Scanner(System.in);
+        
+        //could you modulise this to the locations so its easier to sort and read
 
         System.out.println("You are standing in an open field west of a white house,");
         System.out.println("With a boarded front door.");
@@ -56,7 +58,7 @@ public class MiniZork {
             		System.out.println("Probably for the best");
             	}
             }
-           System.out.println("You are now in a field after running away, well done");
+           
         } else if (action.equals("go to the house")) { }
     }
 }
