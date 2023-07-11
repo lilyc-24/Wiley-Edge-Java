@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Input Data</title>
+<link rel="stylesheet" th:href="@{GeneralStyle.css}" >
+</head>
+<body>
+	<div id="header">
+		<h1>Customer Shares Management System</h1>
+	</div>
+	<div id="navbar">
+		<a href="./" >Home</a>
+		<a href="./inputCustomerID" class="active">Search Customer Shares</a>
+	</div>
+	<br><br>
+	
+	<form action="./displayCustomerShare" method = "get">
+		<label>Enter Customer ID: </label>
+		<input type="text" name="cID">
+		<input type="submit" value="Submit">
+	</form> <br><br>
+
+
+</body>
+</html>
